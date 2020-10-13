@@ -39,7 +39,7 @@ $longanimdur: .4s;
 	#overlay
 	{
 		transition: opacity $longanimdur;
-		background-image: url('/assets/grass.png');
+		background-image: url('assets/grass.png');
 		background-size: var(--unitwidth) auto;
 		background-position: center center;
 	}
@@ -51,7 +51,7 @@ $longanimdur: .4s;
 		.treetop
 		{
 			transition: background-size $animdur;
-			background-image: url('/assets/treetop.png');
+			background-image: url('assets/treetop.png');
 			background-size: 100% 100%;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -59,7 +59,7 @@ $longanimdur: .4s;
 		.treebottom
 		{
 			transition: background-size $animdur;
-			background-image: url('/assets/treebottom.png');
+			background-image: url('assets/treebottom.png');
 			background-size: 100% 100%;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -73,7 +73,7 @@ $longanimdur: .4s;
 		#fence
 		{
 			transition: height $animdur, filter $animdur;
-			background-image: url('/assets/fence.png');
+			background-image: url('assets/fence.png');
 			background-size: 100% 100%;
 			background-position: center;
 		}
@@ -81,11 +81,11 @@ $longanimdur: .4s;
 	#path
 	{
 		transition: width $animdur, height $animdur;
-		background-image: url('/assets/dirt.png');
+		background-image: url('assets/dirt.png');
 		background-size: var(--unitwidth) auto;
 		background-position: center;
-		mask: url('/assets/trailmask.png') center;
-		-webkit-mask: url('/assets/trailmask.png') center;
+		mask: url('assets/trailmask.png') center;
+		-webkit-mask: url('assets/trailmask.png') center;
 		mask-size: 100% auto;
 		-webkit-mask-size: 100% auto;
 		-webkit-mask-repeat: repeat-y;
