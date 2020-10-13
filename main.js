@@ -37,22 +37,7 @@ $(window).on('load', () =>
 											// scroll in box shadows
 											$('#box2').css({'box-shadow': '0px -10px 10px rgba(0, 0, 0, .07)'});
 											$('.tree').css({'filter': 'drop-shadow(0 -10px 5px rgba(0, 0, 0, .1))'});
-											$('#fence').css({'filter': 'drop-shadow(0 -10px 5px rgba(0, 0, 0, .1))'}).on(transitionendevents, () =>
-											{
-												// circle take over screen
-												setTimeout(() =>
-												{
-													$('#circle').attr('style', function(i,s) { return (s||'') + `clip-path: circle(100vmax) !important;`}).on(transitionendevents, () =>
-													{
-														$('#introanimation').css({'display': 'none'});
-														setTimeout(() =>
-														{
-															$('#circle').css({'clip-path': 'circle(0vmin)'});
-															$('#landingbackground').css({'display': 'block'});
-														}, 500);
-													});
-												}, 500);
-											});
+											$('#fence').css({'filter': 'drop-shadow(0 -10px 5px rgba(0, 0, 0, .1))'});
 										});
 									});
 								});
