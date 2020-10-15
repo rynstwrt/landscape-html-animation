@@ -34,7 +34,7 @@ $longanimdur: .4s;
 
 #box2
 {
-	transition: background-color $animdur, box-shadow $animdur;
+	transition: background-color $animdur, box-shadow $animdur / 2;
 	box-shadow: 0px 0px 0px rgba(0, 0, 0, .1);
 	#overlay
 	{
